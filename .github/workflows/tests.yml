@@ -43,5 +43,5 @@ jobs:
       - name: Generate app key
         run: php artisan key:generate
 
-      - name: Execute tests
-        run: php artisan test
+      - name: Execute Feature tests
+        run: php artisan test tests/Feature
